@@ -1,0 +1,20 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+h3 {
+    color: #32329b;
+    font-weight: 600;
+}
+.recipe li {
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+p {
+    color: grey;
+}
