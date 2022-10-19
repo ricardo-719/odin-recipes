@@ -8,8 +8,13 @@ h1 {
 h3 {
     color: #32329b;
     font-weight: 600;
+    margin-left: 15px;
 }
 ul {
+    text-align: left;
+    list-style-position: inside;
+}
+ol {
     text-align: left;
     list-style-position: inside;
 }
@@ -21,13 +26,17 @@ ul {
 }
 .mainList {
     padding-bottom: 16px;
-    text-align: center;
+    text-align: left;
+    margin-left: 235px;
 }
 .lk {
     font-size: 22px;
 }
 p {
     color: grey;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 8px;
 }
 img {
     height: auto;
