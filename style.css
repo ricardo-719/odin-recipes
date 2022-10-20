@@ -1,28 +1,50 @@
 * {
     font-family: 'Courier New', Courier, monospace;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: pink;
 }
 h1 {
+    display: flex;
     color: darkblue;
-    text-align: center;
+    justify-content: center;
+    margin-top: 35px;
 }
 h3 {
     color: #32329b;
     font-weight: 600;
     margin-left: 15px;
 }
+.titleContainer {
+    display: flex;
+}
 ul {
+    margin-bottom: 5px;
     text-align: left;
     list-style-position: inside;
+}
+ul li {
+    margin: 5px;
 }
 ol {
     text-align: left;
     list-style-position: inside;
 }
+ol li {
+    margin: 5px;
+}
 .recipe li {
     color: black;
     font-size: 16px;
     font-weight: 500;
+    justify-content: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+.recipe {
+    margin-top: 35px;
 }
 .mainList {
     padding-bottom: 16px;
@@ -33,9 +55,9 @@ ol {
     font-size: 22px;
 }
 p {
-    color: grey;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    color: black;
+    margin-top: 3px;
+    margin-bottom: 3px;
     margin-left: 8px;
 }
 img {
@@ -44,4 +66,11 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin-left: 35px;
+    width: 1700px;
 }
